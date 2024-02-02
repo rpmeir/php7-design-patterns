@@ -13,3 +13,7 @@ $controleEstoque->adicionarObserver($controleRequisicoesCompra);
 
 $controleEstoque->atualizaEstoqueProduto("A", 0);
 $controleEstoque->atualizaEstoqueProduto("B", 0);
+
+$controleEstoque->removerObserver($controleRequisicoesCompra);
+
+$controleEstoque->atualizaEstoqueProduto("C", 0);
